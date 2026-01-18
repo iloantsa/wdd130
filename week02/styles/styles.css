@@ -22,12 +22,12 @@ main img {
     height: auto;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    box-shadow: azure;
+    box-shadow: 2px;
 }
 
 aside {
     width: 150px;
-    margin: 1;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
