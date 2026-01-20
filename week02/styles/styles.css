@@ -26,12 +26,13 @@ main img {
 }
 
 aside {
-    width: 20px;
-    margin: 10px;
+    width: 20rem;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
+    text-align: center;
 
 }
 
