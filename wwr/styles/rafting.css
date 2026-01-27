@@ -25,6 +25,7 @@ body {
 header,
 main,
 footer {
+    color: var(--secondary-color);
     width: 840px;
     margin: 0 auto;
 }
@@ -39,6 +40,7 @@ nav,
 p,
 section,
 article {
+    color: var(--accent2-color);
     margin: 16px;
     padding: 8px;
 }
@@ -57,7 +59,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -67,6 +69,10 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
     /* white text make sure there is enpugh contrast with the background-color */
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero article img {
