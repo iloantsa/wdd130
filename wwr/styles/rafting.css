@@ -24,9 +24,17 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 200px 1fr;
     align-items: center;
+    background-color: #cbb7e2;
     padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
 }
 
 header,
@@ -91,4 +99,16 @@ article {
     float: right;
     width: 125px;
     color: var(--secondary-color);
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: center;
+}
+
+.adventures img {
+    width: 150px;
+    height: auto;
 }
