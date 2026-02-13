@@ -48,6 +48,8 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    margin: 0 auto;
+    display: block;
 }
 
 nav {
@@ -66,6 +68,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    display: flex;
 }
 
 .hero {
@@ -111,4 +114,62 @@ article {
 .adventures img {
     width: 150px;
     height: auto;
+}
+
+form {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #111;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/10%);
+    padding: 1rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.map {
+    width: 50%;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    margin: 10px auto;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0/10%);
+}
+
+.employee {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.adventures {
+    display: block;
+}
+
+.purpose {
+    display: flex;
+}
+
+.checkbox {
+    display: block;
 }
