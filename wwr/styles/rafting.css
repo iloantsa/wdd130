@@ -40,7 +40,7 @@ nav ul {
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -131,13 +131,11 @@ form {
     margin: 1rem;
     border: 1px solid rgb(0 0 0/10%);
     padding: 1rem;
-    width: 840px;
-
+    width: 100%;
 }
 
 .title {
     text-align: center;
-    display: block;
 }
 
 .map {
@@ -170,5 +168,9 @@ button {
 }
 
 .contact {
+    display: flex;
+}
+
+.employee {
     display: flex;
 }
