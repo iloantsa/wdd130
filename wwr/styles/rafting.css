@@ -50,6 +50,7 @@ h2 {
     color: var(--primary-color);
     margin: 0 auto;
     display: block;
+    text-align: center;
 }
 
 nav {
@@ -114,6 +115,7 @@ article {
 .adventures img {
     width: 150px;
     height: auto;
+    display: flex;
 }
 
 form {
@@ -122,16 +124,20 @@ form {
     padding: 1rem;
     background-color: #ddd;
     color: #111;
+    width: 50%
 }
 
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0/10%);
     padding: 1rem;
+    width: 840px;
+
 }
 
 .title {
     text-align: center;
+    display: block;
 }
 
 .map {
@@ -143,7 +149,6 @@ textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    display: flex;
 }
 
 button {
@@ -155,21 +160,15 @@ button {
     border: 1px solid rgb(0 0 0/10%);
 }
 
-.employee {
-
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.adventures {
-    display: block;
-}
-
 .purpose {
     display: flex;
 }
 
 .checkbox {
     display: block;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
 }
